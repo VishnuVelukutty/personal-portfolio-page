@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishnu Velukutty — Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">VV<span class="dot">.</span></div>
+    <div class="nav-links">
+      <a href="#about"      class="nav-link">About</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#skills"     class="nav-link">Skills</a>
+      <a href="#projects"   class="nav-link">Projects</a>
+      <a href="#contact"    class="nav-link">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="toggle-icon">🌙</span>
+      </button>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </div>
+  </nav>
+  <script src="./script.js"></script>
+  <!-- HERO -->
+  <section id="about" class="hero">
+    <div class="hero-content">
+      <div class="hero-left">
+        <span class="hero-badge">Open to opportunities ✦</span>
+        <h1 class="hero-title">Vishnu<br /><em>Velukutty</em></h1>
+        <p class="hero-role">Full Stack Developer · IT Infrastructure Specialist</p>
+        <p class="hero-sub">I build robust, scalable web applications — Java &amp; Spring Boot on the backend, React on the frontend. Currently shipping production systems at <strong>IITB Research Park</strong>.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact"  class="btn-ghost">Let's Talk →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Projects Shipped</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Experience</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num">IIT-B</span><span class="stat-label">Currently Working</span></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-img-wrapper">
+          <img src="assets/292291480_2098396943697690_2621323103320244505_n.jpg" alt="Vishnu Velukutty" class="hero-img" />
+          <div class="img-ring"></div>
+          <div class="floating-tag tag-1">React ⚛️</div>
+          <div class="floating-tag tag-2">Java ☕</div>
+          <div class="floating-tag tag-3">Spring Boot 🍃</div>
+          <div class="floating-tag tag-4">Django 🐍</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">scroll down ↓</div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience-section">
+    <div class="section-header">
+      <span class="section-label">Where I've worked</span>
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="tl-date">Jan 2025 – Present</span>
+          <span class="tl-badge current">Current</span>
+        </div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-right">
+          <h3>IT Associate</h3>
+          <p class="tl-company">IITB Research Park (ASPIRE) · Mumbai, Maharashtra</p>
+          <ul class="tl-points">
+            <li>Designed &amp; maintained the i-Coins collaboration portal in Django with RESTful APIs for bidirectional Zoho CRM data sync.</li>
+            <li>Built and managed CI/CD pipelines on AWS with load balancer, maintaining clean Git-versioned codebase.</li>
+            <li>Conducted Zoho ERP module UAT cycles, resolving critical bugs and delivering technical feedback.</li>
+            <li>Led website operations: responsive design, Google Analytics monthly reporting, plugin &amp; backup management.</li>
+            <li>Served as primary IT liaison for member companies, managing network surveys and ISP coordination.</li>
+          </ul>
+          <div class="tl-tags"><span>Django</span><span>React</span><span>AWS</span><span>Zoho CRM</span><span>CI/CD</span><span>PostgreSQL</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="tl-date">Dec 2023 – Dec 2024</span>
+        </div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-right">
+          <h3>Software Developer Intern</h3>
+          <p class="tl-company">Application Software Centre, IIT-B · Mumbai, Maharashtra</p>
+          <ul class="tl-points">
+            <li>Developed and enhanced multiple institutional portals: SAP-ERS Scrutiny System, Online Payment System, Hostel Accommodation Utility, Data Verification Service.</li>
+            <li>Migrated version control from CVS to Git, significantly improving team collaboration and code management.</li>
+            <li>Upgraded legacy Java/JSP codebases with modern development practices alongside senior developers.</li>
+            <li>Maintained comprehensive technical documentation for all implemented features.</li>
+          </ul>
+          <div class="tl-tags"><span>Java</span><span>Spring Boot</span><span>JSP</span><span>PostgreSQL</span><span>Git</span><span>Mustache</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-left">
+          <span class="tl-date">Jul 2022 – Dec 2022</span>
+        </div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-right">
+          <h3>Trainee Software Developer</h3>
+          <p class="tl-company">Kyzer Software · Mumbai, Maharashtra</p>
+          <ul class="tl-points">
+            <li>Contributed to DRI &amp; TFRS banking compliance apps for foreign exchange regulatory reporting.</li>
+            <li>Built a Process Mapper utility to validate ETL mappings and proactively resolve production data-integrity issues.</li>
+            <li>Communicated directly with clients to gather requirements and resolve production issues.</li>
+          </ul>
+          <div class="tl-tags"><span>Java</span><span>Spring MVC</span><span>AngularJS</span><span>MySQL</span><span>ETL</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills-section">
+    <div class="section-header">
+      <span class="section-label">What I work with</span>
+      <h2 class="section-title">Skills &amp; Technologies</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">⚛️</div>
+        <h3>Frontend</h3>
+        <p>React, JavaScript (ES6+), HTML5, CSS3, Bootstrap, TailwindCSS, Node.js, Express.js</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">☕</div>
+        <h3>Backend</h3>
+        <p>Java, Spring Boot, Spring MVC, Spring Security, Django, Hibernate, JPA, REST APIs, Hyperledger</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <h3>Databases</h3>
+        <p>MySQL, PostgreSQL, MongoDB (NoSQL), SQL query optimisation, data modelling</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">☁️</div>
+        <h3>DevOps &amp; Cloud</h3>
+        <p>Docker, AWS (CI/CD, Load Balancer), Git, GitHub Actions, Linux, WordPress, Zoho Platform</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <h3>Data &amp; ML</h3>
+        <p>Python, Pandas, NumPy, Matplotlib, PyTorch, TensorFlow, neural networks, GANs</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools</h3>
+        <p>VS Code, Eclipse / STS, Postman, Jest, Google Analytics, Jira, HardHat</p>
+      </div>
+    </div>
+
+    <div class="tech-strip">
+      <div class="tech-scroll">
+        <span>Java</span><span>Spring Boot</span><span>React</span><span>Django</span><span>PostgreSQL</span><span>MySQL</span><span>Docker</span><span>AWS</span><span>Python</span><span>MongoDB</span><span>Hibernate</span><span>Node.js</span>
+        <span>Java</span><span>Spring Boot</span><span>React</span><span>Django</span><span>PostgreSQL</span><span>MySQL</span><span>Docker</span><span>AWS</span><span>Python</span><span>MongoDB</span><span>Hibernate</span><span>Node.js</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects-section">
+    <div class="section-header">
+      <span class="section-label">Worked on</span>
+      <h2 class="section-title">Key Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card featured">
+        <div class="project-img-area" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);">
+          <div class="project-mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-content">
+              <div class="mockup-line w80"></div>
+              <div class="mockup-line w60"></div>
+              <div class="mockup-line w90"></div>
+              <div class="mockup-line w40"></div>
+              <div class="mockup-line w70"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Django</span><span>React</span><span>PostgreSQL</span><span>Zoho CRM</span></div>
+          <h3>i-Coins Collaboration Portal</h3>
+          <p>Internal IITB Research Park portal facilitating collaboration between member companies and IIT Bombay. Migrated from Spring to Django while maintaining production stability; includes bidirectional Zoho CRM sync via REST APIs.</p>
+          <div class="project-links">
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-area" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+          <div class="project-mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-content">
+              <div class="mockup-line w70"></div>
+              <div class="mockup-line w50"></div>
+              <div class="mockup-line w85"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Mustache</span></div>
+          <h3>Data Verification Service</h3>
+          <p>Digitised bonafide certificate submissions for IITB users — migrating pen-and-paper workflow to a secure electronic format, improving processing speed and record management.</p>
+          <div class="project-links">
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-area" style="background: linear-gradient(135deg, #0d2137 0%, #0a3d2e 100%);">
+          <div class="project-mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-content">
+              <div class="mockup-line w90"></div>
+              <div class="mockup-line w55"></div>
+              <div class="mockup-line w75"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Java</span><span>JSP</span><span>Payment Gateway</span></div>
+          <h3>Online Payment System</h3>
+          <p>Enterprise payment aggregator serving as a centralised collection point for all internal IIT-B applications, integrating multiple payment gateways with secure transaction processing.</p>
+          <div class="project-links">
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-area" style="background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 100%);">
+          <div class="project-mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-content">
+              <div class="mockup-line w60"></div>
+              <div class="mockup-line w80"></div>
+              <div class="mockup-line w45"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Java</span><span>Spring MVC</span><span>AngularJS</span><span>MySQL</span></div>
+          <h3>DRI — Bank Reporting System</h3>
+          <p>Secure electronic reporting system for foreign exchange transactions under Directorate of Revenue Intelligence oversight, enabling regulatory compliance for financial institutions.</p>
+          <div class="project-links">
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-area" style="background: linear-gradient(135deg, #0a2e1e 0%, #1a3a2e 100%);">
+          <div class="project-mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-content">
+              <div class="mockup-line w75"></div>
+              <div class="mockup-line w55"></div>
+              <div class="mockup-line w90"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Java</span><span>Spring MVC</span><span>MySQL</span><span>AngularJS</span></div>
+          <h3>TFRS — Trade Finance Reporting</h3>
+          <p>Banking application automating export/import data processing with regulatory compliance requirements, unifying trade finance reporting for financial institutions.</p>
+          <div class="project-links">
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-area" style="background: linear-gradient(135deg, #1f2937 0%, #374151 100%);">
+          <div class="project-mockup">
+            <div class="mockup-bar"><span></span><span></span><span></span></div>
+            <div class="mockup-content">
+              <div class="mockup-line w85"></div>
+              <div class="mockup-line w60"></div>
+              <div class="mockup-line w70"></div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags"><span>Java</span><span>PostgreSQL</span><span>JSP</span></div>
+          <h3>SAP-ERS Scrutiny Portal</h3>
+          <p>Internal IITB portal for job application review — enabling applicant detail viewing, attachment management, and approval/rejection processing for recruitment committees.</p>
+          <div class="project-links">
+            <a href="#" class="link-code">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTS -->
+  <section class="edu-section">
+    <div class="edu-inner">
+      <div class="edu-col">
+        <div class="section-header left-align">
+          <span class="section-label">Academic background</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <h4>PG Diploma in Fintech &amp; Blockchain</h4>
+            <p>CDAC-ACTS Patna &nbsp;·&nbsp; 76.25% &nbsp;·&nbsp; Aug 2023</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <h4>B.E. in Computer Engineering</h4>
+            <p>A.P. Shah Institute of Technology, Mumbai University &nbsp;·&nbsp; CGPI 6.82 &nbsp;·&nbsp; Aug 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="edu-col">
+        <div class="section-header left-align">
+          <span class="section-label">Continuous learning</span>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+        <div class="cert-list">
+          <div class="cert-item"><span class="cert-dot"></span><div><strong>DevOps with Docker</strong><br/>University of Helsinki &amp; Eficode · 2024</div></div>
+          <div class="cert-item"><span class="cert-dot"></span><div><strong>Deep Learning with PyTorch: Zero to GANs</strong><br/>Jovian · 2024</div></div>
+          <div class="cert-item"><span class="cert-dot"></span><div><strong>AWS AI-ML Virtual Internship</strong><br/>AICTE · 2021</div></div>
+          <div class="cert-item"><span class="cert-dot"></span><div><strong>Data Science, Visualization &amp; Statistics for ML</strong><br/>APSIT Skills · 2021</div></div>
+          <div class="cert-item"><span class="cert-dot"></span><div><strong>Data Analysis with Python: Zero to Pandas</strong><br/>Jovian · 2019</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section">
+    <div class="quote-inner">
+      <p class="quote-text">"Every app is just a glorified CRUD app with extra steps said the guy from whom I copied this quote"</p>
+      <span class="quote-author">— Vishnu Velukutty</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-inner">
+      <div class="contact-left">
+        <span class="section-label">Get in touch</span>
+        <h2 class="section-title">Let's Build<br />Something Great</h2>
+        <p class="contact-sub">Open to full-time roles and exciting collaborations. I respond promptly — let's talk.</p>
+        <div class="contact-details">
+          <a href="tel:8898971322"                           class="contact-detail">📞 +91 88989 71322</a>
+          <a href="mailto:vishnuvelukutty26@gmail.com"       class="contact-detail">📧 vishnuvelukutty26@gmail.com</a>
+          <a href="https://linkedin.com/in/vishnuvelukutty"  target="_blank" class="contact-detail">💼 LinkedIn Profile</a>
+          <a href="https://github.com/vishnuvelukutty"       target="_blank" class="contact-detail">🐙 GitHub Profile</a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form class="contact-form">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="jane@company.com" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="Tell me about your project or opportunity..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2025 Vishnu Velukutty · Mumbai, Maharashtra</span>
+    <div class="footer-links">
+      <a href="https://github.com/vishnuvelukutty"      target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/vishnuvelukutty" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
